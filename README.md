@@ -35,12 +35,14 @@ To install Winstaller, follow these steps:
    ```sh
    git clone https://github.com/WalidDeveloperCom/winstaller.git
    cd winstaller
+   
 ## Run the installation script:
 
+```sh
 chmod +x install.sh
 sudo ./install.sh
 
-Usage
+## Usage
 Right-click on any supported package file.
 Select "Open With" and then choose "Winstaller".
 Winstaller will automatically detect the package format and proceed with the installation.
@@ -50,12 +52,14 @@ To uninstall Winstaller, follow these steps:
 
 Remove the installed files:
 
+```sh
 sudo rm /usr/local/bin/winstaller.py
 sudo rm /usr/local/bin/winstaller.sh
 sudo rm /usr/share/applications/winstaller.desktop
 
 Update the desktop database:
 
+```sh
 sudo update-desktop-database
 
 Contributing
